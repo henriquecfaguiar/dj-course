@@ -1,4 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
 .first-section {
+    background-color: #1F2937;
     display: flex;
     flex-direction: column;
 }
@@ -8,14 +39,17 @@
     justify-content: space-around;
 }
 
-.links {
+.header-links {
     display: flex;
     gap: 16px;
 }
 
+.header-image {
+    width: 500px;
+}
+
 .main-area {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
 }
 
