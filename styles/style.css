@@ -1,0 +1,25 @@
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.main-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
