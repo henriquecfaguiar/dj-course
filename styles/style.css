@@ -75,3 +75,39 @@ body {
     gap: 16px;
     padding-top: 16px;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 32px;
+}
+
+.information-body {
+    display: flex;
+    gap: 48px;
+}
+
+.info-img {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-images {
+    border: #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    height: 100px;
+}
+
+.info-text {
+    text-align: center;
+}
