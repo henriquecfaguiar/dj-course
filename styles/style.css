@@ -155,7 +155,7 @@ body {
     align-items: center;
     background-color: #3882F6;
     width: 1000px;
-    height: 150px;
+    height: 130px;
     border-radius: 10px;
 }
 
@@ -180,4 +180,18 @@ body {
 .board-title-text {
     font-size: 24px;
     font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 80px;
+}
+
+.footer-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
 }
