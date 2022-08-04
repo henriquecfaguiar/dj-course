@@ -1,2 +1,2 @@
-# dj-course
-This project is part of The Odin Project curriculum and its goal is to build a webpage in order to improve my web development skills
+# you.dj
+As part of The Odin Project curriculum I have chosen to make a webpage about a fictional company named you.dj that offers a course to teach aspiring DJ's how to achieve their goal.
