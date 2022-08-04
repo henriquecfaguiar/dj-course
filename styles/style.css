@@ -38,12 +38,10 @@ body {
     font-weight: 600;
     border: 0;
     border-radius: 5px;
-    margin-top: 10px;
 }
 
 .hero-image {
-    height: 230px;
-    width: 500px;
+    height: 300px;
 }
 
 .hero {
@@ -54,6 +52,9 @@ body {
 
 .hero-text {
     width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .hero-left {
@@ -66,7 +67,7 @@ body {
 .hero-right {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
     align-items: flex-end;
 }
 
@@ -99,13 +100,14 @@ body {
     width: 150px;
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .info-images {
     border: #3882F6;
     border-style: solid;
     border-radius: 10px;
-    height: 100px;
+    height: 130px;
 }
 
 .info-text {
