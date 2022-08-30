@@ -7,4 +7,4 @@ As part of The Odin Project curriculum I have chosen to make a webpage about a f
 - https://unsplash.com/photos/nPz8akkUmDI - Nicholas Green
 - https://www.pexels.com/photo/photo-of-disc-jockey-performing-1694900/ - Mwabonje
 ## Live preview
-https://henriquecfaguiar.github.io/odin-landing-page/
+https://henriquecfaguiar.github.io/landing-page/
