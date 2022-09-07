@@ -188,10 +188,16 @@ body {
     align-items: center;
     background-color: #1F2937;
     height: 60px;
+    gap: 8px;
 }
 
 .footer-text {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
+}
+
+.fa-github {
+    color: white;
+    cursor: pointer;
 }
