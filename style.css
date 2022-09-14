@@ -12,6 +12,11 @@ a {
   color: #E5E7EB;
 }
 
+a:hover,
+a:focus {
+  opacity: 0.5;
+}
+
 .hero {
   background-color: #1F2937;
 }
@@ -42,6 +47,11 @@ a {
   border-radius: 0.375rem;
   padding: 0.5rem;
   text-align: center;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.5;
 }
 
 .hero-btn {
