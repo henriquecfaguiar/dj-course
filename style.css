@@ -1,6 +1,6 @@
 :root {
   --clr-neutral-900: #1f2937;
-  --clr-neutral-400: #c8cacf;
+  --clr-neutral-400: #e5e7eb;
   --clr-neutral-100: #F9FAF8;
   --clr-accent: #3882f6;
 
@@ -63,7 +63,7 @@ select {
 
 img {
   max-width: 100%;
-  height: auto;
+  max-height: 100%;
   display: block;
 }
 
@@ -95,6 +95,12 @@ a {
   gap: 2em;
 }
 
+.quote__container {
+  padding: 0 5em;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
 header {
   justify-content: space-between;
 }
@@ -103,10 +109,19 @@ header {
   gap: 1em;
 }
 
+.information {
+  padding: 2rem 5rem 8rem 5rem;
+}
+
 .info__container {
-  padding: .2rem 8rem 5rem 8rem;
   margin: 0 auto;
-  max-width: 80rem;
+  flex-direction: column;
+  align-items: center;
+  max-width: 75rem;
+}
+
+.cta {
+  padding: 5rem 10rem;
 }
 
 /* general styling */
@@ -128,16 +143,18 @@ h2 {
   font-size: var(--fs-700);
   font-weight: var(--fw-900);
   text-align: center;
-  padding: 1em 0;
 }
 
 ul {
-  gap: 2rem;
-  margin: 0;
+  width: 80%;
+  margin-top: 2rem;
 }
 
 li {
+  flex-direction: column;
+  align-items: center;
   flex-basis: 100%;
+  padding: 0;
 }
 
 li>img {
@@ -145,11 +162,12 @@ li>img {
   border-radius: 10px;
   height: 10rem;
   width: 10rem;
-  margin: 0 auto;
 }
 
 li>p {
+  color: var(--clr-neutral-900);
   text-align: center;
+  max-width: 70%;
 }
 
 .hero {
@@ -161,6 +179,42 @@ li>p {
   font-size: var(--fs-600);
   font-weight: var(--fw-700);
 }
+
+.quote {
+  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-400);
+  padding: 5rem 15rem;
+}
+
+.quote__text {
+  font-size: var(--fs-700);
+  font-style: italic;
+}
+
+.quote__author {
+  text-align: right;
+  font-weight: var(--fw-700);
+  margin-right: 3rem;
+}
+
+.cta__container {
+  background-color: var(--clr-accent);
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+.cta__main-text {
+  font-weight: var(--fw-700);
+  /* font-size: var(--fs-600); */
+}
+
+.cta button {
+  border: solid 2px var(--clr-neutral-100);
+}
+
 
 .btn {
   color: var(--clr-neutral-100);
