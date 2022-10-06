@@ -21,7 +21,7 @@
 @media(min-width:40em) {
   :root {
     /* big screen font sizes */
-    --fs-400: 1.125rem;
+    --fs-400: 1.2rem;
     --fs-600: 1.5rem;
     --fs-700: 2.25rem;
     --fs-900: 3rem;
@@ -268,7 +268,7 @@ footer {
   color: var(--clr-neutral-100);
   justify-content: center;
   gap: .5rem;
-  padding: 1em;
+  padding: 1em 0;
 }
 
 button {
