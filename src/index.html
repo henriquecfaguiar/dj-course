@@ -28,35 +28,35 @@
     <!-- Global Container -->
     <div class="min-h-screen">
       <!-- Hero Section -->
-      <section id="hero">
+      <section id="hero" class="bg-gradient-to-b from-slate-600 to-slate-900">
         <!-- Hero Container -->
         <div
-          class="mx-auto max-w-lg space-y-10 bg-gradient-to-b from-slate-600 to-slate-900 py-3 px-3 text-white md:max-w-7xl md:space-y-24 md:px-10 md:pb-14"
+          class="mx-auto max-w-lg space-y-10 py-3 px-3 text-white sm:max-w-7xl sm:space-y-24 sm:px-10 sm:pb-14"
         >
           <!-- Header -->
           <header class="flex items-center justify-between">
             <!-- Logo Small -->
             <a
-              class="flex items-center justify-center space-x-2 text-gray-900 md:hidden"
+              class="flex items-center justify-center space-x-2 text-gray-900 hover:opacity-80 sm:hidden"
               href="#"
             >
               <img src="../images/vinyl-disc-icon-sm.png" alt="you.dj logo" />
-              <p class="text-xl md:text-3xl">
+              <p class="text-xl sm:text-3xl">
                 you.<span class="text-yellow-300">dj</span>
               </p>
             </a>
             <!-- Logo Medium -->
             <a
-              class="hidden items-center justify-center space-x-2 text-gray-900 md:flex"
+              class="hidden items-center justify-center space-x-2 text-gray-900 hover:opacity-80 sm:flex"
               href="#"
             >
               <img src="../images/vinyl-disc-icon-md.png" alt="you.dj logo" />
-              <p class="text-xl md:text-3xl">
+              <p class="text-xl sm:text-3xl">
                 you.<span class="text-yellow-300">dj</span>
               </p>
             </a>
             <!-- Nav -->
-            <nav class="flex gap-3 md:gap-4 md:text-lg">
+            <nav class="flex gap-2 sm:gap-4 sm:text-lg">
               <a
                 class="hover:border-b hover:border-black hover:text-yellow-300"
                 href="#"
@@ -76,11 +76,11 @@
           </header>
           <!-- Hero Content -->
           <div
-            class="flex flex-col items-center justify-between gap-4 md:flex-row"
+            class="flex flex-col items-center justify-between gap-4 sm:flex-row"
           >
             <!-- Text -->
-            <div class="flex max-w-md flex-col gap-2 md:gap-4">
-              <h1 class="w-[95%] text-left text-3xl font-extrabold md:text-5xl">
+            <div class="flex max-w-md flex-col gap-2 sm:gap-4">
+              <h1 class="w-[95%] text-left text-3xl font-extrabold sm:text-5xl">
                 Become a professional DJ
               </h1>
               <p class="text-md w-[85%]">
@@ -94,7 +94,7 @@
               >
             </div>
             <!-- Image -->
-            <div class="max-w-60 h-full">
+            <div class="max-w-60">
               <img
                 class="w-fit rounded-lg"
                 src="../images/hero-image.webp"
@@ -107,16 +107,16 @@
       <!-- Info Section -->
       <section id="info">
         <!-- Infor Container -->
-        <div class="mx-auto pb-14 pt-6 outline md:pb-32">
+        <div class="mx-auto pb-14 pt-6 sm:pb-32">
           <!-- Info Title -->
           <h2
-            class="mb-6 text-center text-2xl font-bold text-slate-900 md:mb-12 md:text-4xl"
+            class="mb-6 text-center text-2xl font-bold text-slate-900 sm:mb-12 sm:text-4xl"
           >
             DJ from zero to hero
           </h2>
           <!-- Info Content -->
           <div
-            class="mx-auto flex flex-col items-center justify-center gap-6 md:flex-row md:gap-10"
+            class="mx-auto flex flex-col items-center justify-center gap-6 sm:flex-row sm:gap-10"
           >
             <!-- Item 1 -->
             <div class="flex max-w-[180px] flex-col gap-4">
@@ -165,36 +165,57 @@
           </div>
         </div>
       </section>
-      <section class="quote bg-gray">
-        <div class="quote__container">
-          <p class="quote__text text-dark light-italic">
+      <!-- Quote Section -->
+      <section id="quote" class="bg-slate-100">
+        <!-- Quote Container -->
+        <div class="mx-auto max-w-3xl space-y-3 p-10 text-justify">
+          <!-- Quote -->
+          <p class="text-xl font-extralight italic text-slate-400 sm:text-2xl">
             I've always wanted to be a DJ but never had the courage needed to
             quit my job and follow my dream. It was only when I've found you.dj
             that I really felt secure enough to do so. Couldn't be happier than
             I am now.
           </p>
-          <p class="quote__author text-dark bold align-right">
-            John, DJ and Producer
-          </p>
+          <!-- Author -->
+          <p class="text-right font-semibold">-John, DJ and Producer</p>
         </div>
       </section>
-      <section class="cta">
-        <div class="cta__container bg-accent responsive-split">
+      <!-- CTA Section -->
+      <section id="cta" class="p-8 sm:p-20">
+        <!-- CTA Container -->
+        <div
+          class="mx-auto flex max-w-fit flex-col items-center gap-4 rounded-lg bg-gradient-to-r from-slate-600 to-slate-700 p-6 text-white shadow-lg shadow-slate-700 sm:flex-row sm:gap-20 sm:px-20 sm:py-12"
+        >
+          <!-- Text -->
           <div>
-            <p class="bold font-600 text-light">
+            <p class="font-extrabold sm:text-lg">
               It's time for you to follow your dream!
             </p>
-            <p class="">
+            <p class="text-xs font-extralight sm:text-sm">
               Become a pro DJ by clicking that button right over there!
             </p>
           </div>
-          <div><button class="">Sign up</button></div>
+          <!-- Button -->
+          <a
+            href="#"
+            class="min-w-max rounded-lg border-2 border-yellow-300 bg-yellow-300 px-4 py-1 text-center text-sm font-semibold text-slate-600 duration-200 hover:bg-slate-700 hover:text-yellow-300 sm:px-6 sm:py-2 sm:text-base"
+            >Sign up</a
+          >
         </div>
       </section>
-      <footer class="bg-dark split">
-        <p>Copyright © 2022 henriquecfaguiar</p>
-        <a href="https://github.com/henriquecfaguiar">
-          <i class="fa fa-github fa-lg"></i
+      <!-- Footer -->
+      <footer
+        id="footer"
+        class="flex items-center justify-center space-x-2 bg-gray-800 py-1 text-white sm:py-2"
+      >
+        <p class="text-sm sm:text-lg">
+          Made with <span class="text-xl text-red-600">&#9829;</span> by
+          henriquecfaguiar
+        </p>
+        <a
+          href="https://github.com/henriquecfaguiar"
+          class="text-2xl duration-200 hover:opacity-50 sm:text-3xl"
+          ><i class="fa fa-github"></i
         ></a>
       </footer>
     </div>
