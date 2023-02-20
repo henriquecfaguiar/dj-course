@@ -22,4 +22,4 @@ Landing page about a fictional company named you.dj that offers a course that he
 
 - Music and multimedia icons created by Mihimihi - [Flaticon](https://www.flaticon.com/free-icons/music-and-multimedia)
 
-## [Live Demo](https://henriquecfaguiar.github.io/landing-page/)
+## [Live Demo](https://henriquecfaguiar.github.io/you-dj-landing-page/)
