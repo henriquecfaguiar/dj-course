@@ -19,7 +19,7 @@
     />
     <link
       rel="shortcut icon"
-      href="../images/vinyl-disc-favicon.png"
+      href="../images/vinyl-disc-icon-sm.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../dist/output.css" />
@@ -28,28 +28,35 @@
     <!-- Global Container -->
     <div class="min-h-screen">
       <!-- Hero Section -->
-      <section
-        id="hero"
-        class="bg-gradient-to-b from-slate-600 to-slate-900 text-white"
-      >
+      <section id="hero">
         <!-- Hero Container -->
         <div
-          class="mx-auto max-w-lg space-y-10 py-3 px-2 md:max-w-7xl md:space-y-24 md:px-10 md:pb-14"
+          class="mx-auto max-w-lg space-y-10 bg-gradient-to-b from-slate-600 to-slate-900 py-3 px-3 text-white md:max-w-7xl md:space-y-24 md:px-10 md:pb-14"
         >
           <!-- Header -->
           <header class="flex items-center justify-between">
-            <!-- Logo -->
+            <!-- Logo Small -->
             <a
-              class="flex items-center justify-center space-x-2 text-gray-900"
+              class="flex items-center justify-center space-x-2 text-gray-900 md:hidden"
               href="#"
             >
-              <img src="../images/vinyl-disc-favicon.png" alt="you.dj logo" />
+              <img src="../images/vinyl-disc-icon-sm.png" alt="you.dj logo" />
+              <p class="text-xl md:text-3xl">
+                you.<span class="text-yellow-300">dj</span>
+              </p>
+            </a>
+            <!-- Logo Medium -->
+            <a
+              class="hidden items-center justify-center space-x-2 text-gray-900 md:flex"
+              href="#"
+            >
+              <img src="../images/vinyl-disc-icon-md.png" alt="you.dj logo" />
               <p class="text-xl md:text-3xl">
                 you.<span class="text-yellow-300">dj</span>
               </p>
             </a>
             <!-- Nav -->
-            <nav class="flex gap-2 md:gap-4 md:text-lg">
+            <nav class="flex gap-3 md:gap-4 md:text-lg">
               <a
                 class="hover:border-b hover:border-black hover:text-yellow-300"
                 href="#"
@@ -68,13 +75,15 @@
             </nav>
           </header>
           <!-- Hero Content -->
-          <div class="flex flex-col justify-between gap-4 md:flex-row">
+          <div
+            class="flex flex-col items-center justify-between gap-4 md:flex-row"
+          >
             <!-- Text -->
             <div class="flex max-w-md flex-col gap-2 md:gap-4">
-              <h1 class="text-left text-3xl font-extrabold md:text-5xl">
+              <h1 class="w-[95%] text-left text-3xl font-extrabold md:text-5xl">
                 Become a professional DJ
               </h1>
-              <p class="text-md">
+              <p class="text-md w-[85%]">
                 By the end of this course you will learn all techniques required
                 to perform greatly as a DJ from small to big parties.
               </p>
@@ -95,53 +104,65 @@
           </div>
         </div>
       </section>
-      <section class="information">
-        <div class="info__container">
-          <h2 class="text-dark extra-bold align-center">
+      <!-- Info Section -->
+      <section id="info">
+        <!-- Infor Container -->
+        <div class="mx-auto pb-14 pt-6 outline md:pb-32">
+          <!-- Info Title -->
+          <h2
+            class="mb-6 text-center text-2xl font-bold text-slate-900 md:mb-12 md:text-4xl"
+          >
             DJ from zero to hero
           </h2>
-          <ul class="info__content responsive-split">
-            <li class="flow-content">
+          <!-- Info Content -->
+          <div
+            class="mx-auto flex flex-col items-center justify-center gap-6 md:flex-row md:gap-10"
+          >
+            <!-- Item 1 -->
+            <div class="flex max-w-[180px] flex-col gap-4">
               <img
-                class="info__img"
-                src=" ./images/info-image1.jpg"
-                alt="music production equipment"
+                class="rounded-lg shadow-lg"
+                src="../images/info-image1.webp"
+                alt="Studio table with two monitors and some music equipment"
               />
-              <p class="text-dark align-center">
+              <p class="text-center text-sm font-light text-slate-500">
                 Music production software and fundamentals
               </p>
-            </li>
-            <li class="flow-content">
+            </div>
+            <!-- Item 2 -->
+            <div class="flex max-w-[180px] flex-col gap-4">
               <img
-                class="info__img"
-                src="./images/info-image2.jpg"
+                class="rounded-lg shadow-lg"
+                src="../images/info-image2.webp"
                 alt="person using a cdj"
               />
-              <p class="text-dark align-center">
+              <p class="text-center text-sm font-light text-slate-500">
                 How to use professional DJ equipment
               </p>
-            </li>
-            <li class="flow-content">
+            </div>
+            <!-- Item 3 -->
+            <div class="flex max-w-[180px] flex-col gap-4">
               <img
-                class="info__img"
-                src=" ./images/info-image3.jpg"
+                class="rounded-lg shadow-lg"
+                src="../images/info-image3.webp"
                 alt="people at a party"
               />
-              <p class="text-dark align-center">
+              <p class="text-center text-sm font-light text-slate-500">
                 Important concepts about crowd reading and feeling
               </p>
-            </li>
-            <li class="flow-content">
+            </div>
+            <!-- Item 4 -->
+            <div class="flex max-w-[180px] flex-col gap-4">
               <img
-                class="info__img"
-                src="./images/info-image4.jpg"
+                class="rounded-lg shadow-lg"
+                src="../images/info-image4.webp"
                 alt="dj at stage with hands up"
               />
-              <p class="text-dark align-center">
-                How to behave at stage when performing
+              <p class="text-center text-sm font-light text-slate-500">
+                How to behave like a pro at stage when performing
               </p>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </section>
       <section class="quote bg-gray">
